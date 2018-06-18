@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ .nav {
+     background-color: grey;
+     text-align: center;
+     padding-bottom: 10px;
+     box-sizing: border-box;
+     max-height: 230px;
+     overflow-y: scroll;
+ }
+
+    .main-container {
+        display: flex;
+    }
+
+  .container-1 {
+
+  }
+
+  .container-2 {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .box1 {
+      flex:1;
+  }
+
+  .box2 {
+      flex: 1;
+  }
+
+  .column-right {
+      
+  }
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+h2, a, h1, fieldset {
+    font-family: 'Raleway', sans-serif;
+}
+
+fieldset {
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.formos-eilutes {
+    display: flex;
+    padding: 10px 0px;
+}
+.formos-eilutes input {
+    flex: 1;
+}
+
+.formos-eilutes label {
+    padding: 0px 10px;
+}
+
+.button {
+    text-align: center;
+}
